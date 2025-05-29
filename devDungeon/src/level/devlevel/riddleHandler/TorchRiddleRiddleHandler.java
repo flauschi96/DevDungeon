@@ -222,6 +222,7 @@ public class TorchRiddleRiddleHandler implements ITickable {
    *
    * @return The sum of the values of all lit torches in the game.
    */
+  //
   private int getSumOfLitTorches() {
       Stream<Entity> entityStream = Game.entityStream();
       return entityStream
